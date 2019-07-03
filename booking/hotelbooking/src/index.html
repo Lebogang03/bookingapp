@@ -20,8 +20,18 @@
     <link rel="stylesheet" href="http://www.elathemes.com/themes/colina/js/bundle.min.js">
 
     <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500&amp;subset=latin-ext" rel="stylesheet">
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
 </head>
 
 <body>

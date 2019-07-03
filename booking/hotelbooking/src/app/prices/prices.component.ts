@@ -13,6 +13,7 @@ export class PricesComponent implements OnInit {
   checkout:string;
   Adults:any;
   Children:any;
+  Rooms: any;
   constructor(private route: ActivatedRoute,private router:Router) { }
 onPayment()
 {
@@ -34,6 +35,8 @@ onPayment()
       console.log(this.Adults);
       this.Children = params.Children;
       console.log(this.Children);
+      this.Rooms = params.Rooms;
+      console.log(this.Rooms);
     });
   }
 }

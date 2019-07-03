@@ -11,5 +11,6 @@ export class SpafacilitiesComponent implements OnInit {
 
   ngOnInit() {
   }
+  
 
 }

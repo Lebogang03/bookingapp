@@ -15,6 +15,7 @@ import { GymComponent } from './gym/gym.component';
 import { SpaComponent } from './spa/spa.component';
 import { SpafacilitiesComponent } from './spafacilities/spafacilities.component';
 import { ResturantComponent } from './resturant/resturant.component';
+import { NewgymComponent } from './newgym/newgym.component';
 
 
 
@@ -30,7 +31,8 @@ import { ResturantComponent } from './resturant/resturant.component';
     GymComponent,
     SpaComponent,
     SpafacilitiesComponent,
-    ResturantComponent
+    ResturantComponent,
+    NewgymComponent
   ],
   imports: [
     BrowserModule,

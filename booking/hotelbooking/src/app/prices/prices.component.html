@@ -11,17 +11,24 @@
         </p>
 
         <p>
-            until<b> {{checkout}}</b>
+            until <b> {{checkout}}</b>
         </p>
 
         <p>
-            you booked for<b> {{Adults}} </b>adults
+
+            you booked for <b> {{Adults}} </b>adults
 
         </p>
 
         <p>
-            and<b>{{Children}} </b> children
+            and <b>{{Children}} </b> children
         </p>
+
+        <p>
+            for<b>{{Rooms}} </b> rooms
+        </p>
+
+        <p>your total amount is<b>R 8000.00</b> from<b> {{checkin}} </b>to <b>{{checkout}}</b> </p>
         <p>I hope you enjoy your stay with us...</p>
 
         <button (click)="onPayment()">payments</button>
@@ -112,12 +119,21 @@
 
             <!-- === stretcher item more === -->
 
-            <li class="stretcher-item more">
-                <div class="more-icon">
-                    <span data-title-show="Show more" data-title-hide="+"></span>
-                </div>
-                <a href="">Anchor link</a>
-            </li>
+            <a href="/home/newgym">
+                <li class="stretcher-item" style="background-image:url(assets/gym.jpg);">
+                    <!--logo-item-->
+                    <div class="stretcher-logo">
+                        <div class="text">
+                            <span class="text-intro h4">GYM</span>
+                        </div>
+                    </div>
+                    <!--main text-->
+                    <figure>
+                        <h4>Gym</h4>
+                    </figure>
+                </li>
+            </a>
+
         </ul>
     </section>
 </body>

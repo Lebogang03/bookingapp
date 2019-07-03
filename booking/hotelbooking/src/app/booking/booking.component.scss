@@ -1,14 +1,14 @@
 .wrapper {
-    background-image: url(C:\Users\CODETRIBE\Desktop\book\booking\hotelbooking\src\assets\01-antoperla-luxury-hotel-spa-santorini.jpg);
+    background-image: url(C:\Users\CODETRIBE\Desktop\book\booking\hotelbooking\src\assets\home-header-hotel-ibiza.jpg);
     background: -webkit-linear-gradient(top left, transform 0%, transformum 100%);
     background: linear-gradient(to bottom right, transform, transform 100%);
     position: absolute;
-    top: 32%;
+    top: 135px;
     left: 0;
-    bottom: 32%;
+    bottom: 0%;
     width: 100%;
-    height: 85%;
-    margin-top: -200px;
+    height: 80%;
+    // margin-top: -200px;
     overflow: hidden;
 }
 
@@ -18,15 +18,6 @@
     padding: 80px 0;
     height: 400px;
     text-align: center;
-}
-
-.container h1 {
-    font-size: 40px;
-    -webkit-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-timing-function: ease-in-put;
-    transition-timing-function: ease-in-put;
-    font-weight: 200;
 }
 
 .form {
@@ -60,7 +51,7 @@
 }
 
 .form input:focus {
-    background-color: beige;
+    background-color: burlywood;
     width: 300px;
     color: #101111e8;
 }
@@ -99,9 +90,9 @@
     position: absolute;
     list-style: none;
     display: block;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.15);
+    width: 30px;
+    height: 30px;
+    background-color: skyblue;
     bottom: -160px;
     -webkit-animation: square 25s infinite;
     animation: square 25s infinite;

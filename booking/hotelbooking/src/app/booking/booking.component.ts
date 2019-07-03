@@ -14,6 +14,7 @@ export class BookingComponent implements OnInit {
   checkout:string;
   Adults:any;
   Children:any;
+  Rooms:any;
   constructor(private route: ActivatedRoute,private router:Router) { }
 
   ngOnInit() {
@@ -21,7 +22,7 @@ export class BookingComponent implements OnInit {
   }
   onLogin(){
     console.log(); 
-      this.router.navigate(['home/prices'], { queryParams: {Username: this.Username, Lastname: this.Lastname, checkin: this.checkin,  checkout: this.checkout, Adults: this.Adults, Children: this.Children }});
+      this.router.navigate(['home/prices'], { queryParams: {Username: this.Username, Lastname: this.Lastname, checkin: this.checkin,  checkout: this.checkout, Adults: this.Adults, Children: this.Children,  Rooms: this.Rooms }});
     }
    
 }  

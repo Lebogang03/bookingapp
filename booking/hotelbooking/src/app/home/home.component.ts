@@ -8,10 +8,10 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  list = [ {name:'About',path:'home/about'},
-  {name:'Booking',path:'home/booking'},
-   {name:'personal details',path:'home/prices'}, 
-    {name:'Payment',path:'home/payment'}
+  list = [ {name:'About',path:'/home/about'},
+  {name:'Booking',path:'/home/booking'},
+   {name:'personal details',path:'/home/prices'}, 
+    {name:'Payment',path:'/home/payment'}
 ];
 
 
